@@ -1,3 +1,4 @@
+
 class PagesController < ApplicationController
   def home
   @titre="Accueil"
@@ -10,5 +11,10 @@ class PagesController < ApplicationController
   def about
   @titre="A propos"
   end
+  
+  def help
+    @titre = "Aide"
+  end
+
   
 end
